@@ -1,7 +1,7 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-import   { Header }  from "../components/header/page"
+import   { Header }  from "@/components/header/header"
 
 export const metadata: Metadata = {
   title: "Portfólio",
@@ -16,7 +16,6 @@ export default function RootLayout({
 }>) {
 
   return (
-    
     <html lang="pt-BR">
       <head>
       <meta name="format-detection" content="telephone=no, date=no, email=no, address=no"></meta>
